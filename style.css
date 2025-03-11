@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    -webkit-app-region: drag;
+    background-color: transparent;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    color: #edff14;
+    user-select: none;
+}
+
+#close {
+    padding: 5px;
+    font-size: .8em;
+    color: grey;
+    -webkit-app-region: no-drag;
+}
+
+#close:hover {
+    color: #14ff66;
+}
+
+
+.compress-y {
+    animation-name: compress-y;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+}
+
+
+@keyframes compress-y {
+    0%,
+    5%,
+    10%,
+    15%,
+    20%,
+    25%,
+    30% { transform: scale(1, 0); }
+
+    35% {  transform: scale(1, 1); }
+    40% {  transform: scale(1, 0.3); }
+    45% {  transform: scale(1, .2); }
+    50% {  transform: scale(1, 0.1)  }
+    55% { transform: scale(1, 0); }
+    60% {  transform: scale(1, 1); }
+
+    65%,
+    70%,
+    75%,
+    80%,
+    85%,
+    90%,
+    95%,
+    100% { transform: scale(1, 0); }
+}
