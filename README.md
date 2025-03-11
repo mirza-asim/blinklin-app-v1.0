@@ -10,6 +10,6 @@ You can make this into an actual executable (blinklin-v1.0.exe) file for ur conv
 Im also planning to integrate sort of a AI/ML element to this application since its just a static reminder to blink, I would like to use the Webcam from the device to monitor blink rate and 
 dynamically adjust the blink rate according to the user and add a 2 hour timer to remind the user to take a break in screentime and sort of add a user approved screen-locking mechanism, but let see! 
 
-Any additions/uggestions and constructive criticisms are greatly appreciated! :)
+Any additions/suggestions and constructive criticisms are greatly appreciated! :)
 
 https://www.electronjs.org/docs/latest/tutorial/application-distribution
